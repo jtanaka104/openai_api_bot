@@ -30,7 +30,7 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title("翔也様専用 AI Assistant")
+st.title("翔也様専用 AI アシスタント")
 st.write("私は翔也様に忠実なアシスタントです。")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
