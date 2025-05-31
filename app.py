@@ -45,3 +45,19 @@ if st.session_state["messages"]:
             speaker="🤖"
 
         st.write(speaker + ": " + message["content"])
+
+###############################################################################
+# メッセージの構成
+###############################################################################
+#    st.session_state["messages"] = [
+#        {"role": "system",    "content": "システムプロンプト"},
+#        {"role": "user",      "content": "ユーザプロンプト(1回目)"},
+#        {"role": "assistant", "content": "アシスタント回答(1回目)"},
+#        {"role": "user",      "content": "ユーザプロンプト(2回目)"},
+#        {"role": "assistant", "content": "アシスタント回答(2回目)"},
+#                                  ・
+#                                  ・
+#                                  ・
+#        {"role": "user",      "content": "ユーザプロンプト(n回目)"},
+#        {"role": "assistant", "content": "アシスタント回答(n回目)"}
+#    ]
