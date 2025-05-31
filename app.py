@@ -5,12 +5,6 @@ import openai
 # Streamlit Community Cloudの「Secrets」からOpenAI API keyを取得
 openai.api_key = st.secrets.OpenAIAPI.openai_api_key
 
-# st.session_stateを使いメッセージのやりとりを保存
-if "messages" not in st.session_state:
-    st.session_state["messages"] = [
-        {"role": "system", "content": st.secrets.AppSettings.system_prompt}
-        ]
-
 # チャットボットとやりとりする関数
 def communicate():
     messages = st.session_state["messages"]
@@ -29,6 +23,11 @@ def communicate():
 
     st.session_state["user_input"] = ""  # 入力欄を消去
 
+# st.session_stateを使いメッセージのやりとりを保存
+if "messages" not in st.session_state:
+    st.session_state["messages"] = [
+        {"role": "system", "content": st.secrets.AppSettings.system_prompt}
+        ]
 
 # ユーザーインターフェイスの構築
 st.title(" 「プログラミング講師」ボット")
