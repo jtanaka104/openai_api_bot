@@ -39,7 +39,7 @@ user_input = st.text_input("メッセージを入力してください。", key=
 
 if st.session_state["messages"]:
     messages = st.session_state["messages"]
-    for message in reversed(messages[1:]):  # 直近のメッセージを上に
+    for message in reversed(messages[1:]):  # システムプロンプト以外を直近のメッセージを上にして表示
         speaker = "🙂"
         if message["role"]=="assistant":
             speaker="🤖"
