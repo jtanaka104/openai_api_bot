@@ -1,5 +1,4 @@
 import streamlit as st
-import re
 
 st.title("＜発表内容＞")
 
