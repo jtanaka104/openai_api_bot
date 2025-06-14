@@ -32,7 +32,8 @@
 - [「Connect4」ボット(pytorch版)](https://pytorchconnect4.streamlit.app/)
 - [ソースコード](https://pytorchconnect4-disp.streamlit.app/)
 
-### ４．LLMニュース
+---
+## ■LLMニュース
 - [ハノイの塔](https://gigazine.net/news/20250609-ai-thinking-model-limit/#google_vignette)
 - [チェス](https://gigazine.net/news/20250610-chatgpt-atari-2600-chess/)
 
