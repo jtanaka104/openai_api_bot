@@ -74,8 +74,9 @@ if st.session_state["messages"]:
 #                                  ・
 #                                  ・
 #                                  ・
-#        {"role": "user",      "content": "ユーザプロンプト(n回目)"},
-#        {"role": "assistant", "content": "アシスタント回答(n回目)"}
+#        {"role": "user",      "content": "ユーザプロンプト(n-1回目)"},
+#        {"role": "assistant", "content": "アシスタント回答(n-1回目)"},
+#        {"role": "user",      "content": "ユーザプロンプト(n回目)"}
 #    ]
 # ★注意★"system"を指定できないモデルも存在する。
 ###############################################################################
