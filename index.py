@@ -3,7 +3,7 @@ import streamlit as st
 st.title("＜発表内容＞")
 
 try:
-    with open('全体構成.txt',  encoding='utf-8') as f:
+    with open('全体構成.txt', encoding='utf-8') as f:
         content = f.read()
 except FileNotFoundError:
     content = '全体構成.txt が見つかりません。'

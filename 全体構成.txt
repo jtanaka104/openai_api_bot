@@ -23,9 +23,9 @@
   * おすすめのプログラミング言語は？
 
 ### ２．応用して作成してみたもの
-- [「Connect4」ボット(o3-pro)](https://app-gpt-35-turbo.streamlit.app/)
+- [「Connect4」ボット(gpt-3.5-turbo)](https://app-gpt-35-turbo.streamlit.app/)
 - [ソースコード](https://disp-gpt-35-turbo.streamlit.app/)
-- [「Connect4」ボット(o1-mini)](https://app-o3.streamlit.app/)
+- [「Connect4」ボット(o3)](https://app-o3.streamlit.app/)
 - [ソースコード](https://disp-o3.streamlit.app/)
 
 ### ３．脱線して作成してみたもの
