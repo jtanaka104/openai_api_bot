@@ -23,10 +23,10 @@
   * おすすめのプログラミング言語は？
 
 ### ２．応用して作成してみたもの
-- [「Connect4」ボット(o3-pro)](https://app-o3-pro.streamlit.app/)
-- [ソースコード](https://disp-o3-pro.streamlit.app/)
-- [「Connect4」ボット(o1-mini)](https://app-o1-mini.streamlit.app/)
-- [ソースコード](https://disp-o1-mini.streamlit.app/)
+- [「Connect4」ボット(o3-pro)](https://app-gpt-35-turbo.streamlit.app/)
+- [ソースコード](https://disp-gpt-35-turbo.streamlit.app/)
+- [「Connect4」ボット(o1-mini)](https://app-o3.streamlit.app/)
+- [ソースコード](https://disp-o3.streamlit.app/)
 
 ### ３．脱線して作成してみたもの
 - [「Connect4」ボット(pytorch版)](https://torchconnect4.streamlit.app/)
