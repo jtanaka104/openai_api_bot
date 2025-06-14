@@ -1,9 +1,9 @@
 ################################################
 # 講座
 ################################################
-https://www.udemy.com/course/chatgpt-api-bot/?srsltid=AfmBOorYTlNfmWoSeyEhjgRAECftGR9qu7Oov95_hw3lunFuP11YZisZ
 ChatGPT APIを使ってチャットボットを作ろう！
 【GPT-3.5/GPT-4】 -LLMを使うアプリの構築と公開-
+https://www.udemy.com/course/chatgpt-api-bot/?srsltid=AfmBOorYTlNfmWoSeyEhjgRAECftGR9qu7Oov95_hw3lunFuP11YZisZ
 
 ################################################
 # システム構成
@@ -11,16 +11,35 @@ ChatGPT APIを使ってチャットボットを作ろう！
 ■GitHub
 ・Pythonで記述した「チャットボット」プログラム
 
-■Streamlit
+■Streamlit (PythonでWEBアプリケーション)
 ・「チャットボット」アプリ
 
 ■OpenAPI (課金あり)
 ・モデル「gpt-3.5-turbo」など。
 
 ################################################
-# サイト
+# アプリ
 ################################################
+１．講座の中で紹介されていたアプリを実装したもの
 https://bot4shoya.streamlit.app/
 「プログラミング講師」ボット
+・カレーライスの作り方を教えて下さい。
+・おすすめのプログラミング言語は？
+
+２．独自に作成してみたもの
+https://bot4shoya.streamlit.app/
+「Connect4」ボット
+
+################################################
+# OpenAI API一覧
+################################################
+https://platform.openai.com/docs/pricing
 
 
+################################################
+# OpenAI API一覧
+################################################
+カレーライスの作り方を教えて下さい。
+人工知能の勉強をするのによいプログラミング言語を教えて下さい。
+JavaScriptではダメなのでしょうか？
+プログラミングに疲れたときに食べると良いカレーライスの作り方を教えて下さい。
