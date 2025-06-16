@@ -33,16 +33,14 @@
 - [ソースコード](https://pytorchconnect4-disp.streamlit.app/)
 - [「function-calling(MCPもどき)」](https://app-function-calling.streamlit.app/)
 - [ソースコード](https://disp-function-calling.streamlit.app/)
-
----
-## ■LLMニュース
-- [ハノイの塔](https://gigazine.net/news/20250609-ai-thinking-model-limit/#google_vignette)
-- [チェス](https://gigazine.net/news/20250610-chatgpt-atari-2600-chess/)
-
-## ■function-callingとMCP
-- [Function calling の延長線上で MCP を考察](https://qiita.com/7shi/items/e27866ce51c6b9a0f605)
   * こんにちは。
   * 今、一ドルは何円ですか？
+
+---
+## ■情報
+- [ハノイの塔](https://gigazine.net/news/20250609-ai-thinking-model-limit/#google_vignette)
+- [チェス](https://gigazine.net/news/20250610-chatgpt-atari-2600-chess/)
+- [Function calling の延長線上で MCP を考察](https://qiita.com/7shi/items/e27866ce51c6b9a0f605)
 
 ---
 ## ■まとめ
@@ -54,6 +52,6 @@
 ### ２．(脱線)AIについて、田中が思うこと
 - LLMは対戦ゲームやパズルなどが驚くほど苦手
 - LLMが持てはやされているが、従来からの機能特化型モデルもまだまだ必要
-- 超強力なAIに収斂する未来ではなく、様々なAIが共存・共栄する未来へ
+- 超強力なAIに収斂する未来ではなく、様々なAIが共存・共栄・協力する未来へ
 - AIの課題はLLMも機能特化型モデルも学習に時間がかかりすぎること
 - 学習と推論が分離せず、行動しながら効率よく学習していくAIロボットの登場が待ち遠しい
