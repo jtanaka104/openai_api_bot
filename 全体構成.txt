@@ -51,9 +51,9 @@
 - 引数[tools,tool_choice]を指定することでLLMにツールを利用させることができる
 
 ### ２．(脱線)MCP・Function Calling・RAG
-- MCPはAI AgentがMCPサーバ(ツール)を利用するためのプロトコル。(AI AgentとMCPサーバ間のプロトコル)
-- Function CallingはOpenAI APIにおいて、LLMにツールを使わせるための技術。(AI AgentとLLM間の仕組)
-- RAGはLLMに質問をする前に社内DB等から情報を検索し、その情報とともにLLMに質問する技術。
+- MCPはAI AgentがMCPサーバ(ツール)を利用するためのプロトコル。(AI Agent・MCPサーバ間)
+- Function CallingはOpenAI APIにおいて、LLMにツールを使わせるための技術。(AI Agent・LLM間)
+- RAGは予め社内DB等から情報を検索し、その情報とともにAPI(LLM)に質問する技術。
 
 ### ３．(脱線)AIについて、田中が思うこと
 - LLMは対戦ゲームやパズルなどが驚くほど苦手
