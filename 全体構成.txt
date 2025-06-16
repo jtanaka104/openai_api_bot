@@ -48,6 +48,7 @@
 - 引数[model]に指定するLLMのランクによって性能が大きく異なる
 - 引数[temperature]に指定する値によって出力の「ランダムさ」を調整できる
 - 引数[message]内の"role": "system"(システムプロンプト)で、AIに対して「どう振る舞うべきか」を定義できる
+- 引数[tools,tool_choice]を指定することでLLMにツールを利用させることができる
 
 ### ２．(脱線)MCP・Function Calling・RAG
 - MCPはAI AgentがMCPサーバ(ツール)を利用するためのプロトコル。(AI AgentとMCPサーバ間のプロトコル)
