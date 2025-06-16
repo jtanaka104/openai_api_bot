@@ -31,8 +31,8 @@
 ### ３．脱線して作成してみたもの
 - [「Connect4」ボット(pytorch版)](https://pytorchconnect4.streamlit.app/)
 - [ソースコード](https://pytorchconnect4-disp.streamlit.app/)
-- [「MCPもどき」](https://function-calling-disp.streamlit.app/)
-- [ソースコード](https://function-calling-disp.streamlit.app/)
+- [「function-calling(MCPもどき)」](https://app-function-calling.streamlit.app/)
+- [ソースコード](https://disp-function-calling.streamlit.app/)
 
 ---
 ## ■LLMニュース
