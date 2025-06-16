@@ -51,7 +51,7 @@
 
 ### ２．(脱線)MCP・Function Calling・RAG
 - MCPはAI AgentがMCPサーバ(ツール)を利用するためのプロトコル。(AI AgentとMCPサーバ間のプロトコル)
-- Function CallingはOpenAI APIにおけるMCP実装技術。(AI AgentとLLM間の仕組)
+- Function CallingはOpenAI APIにおいて、LLMにツールを使わせるための技術。(AI AgentとLLM間の仕組)
 - RAGはLLMに質問をする前に社内DB等から情報を検索し、その情報とともにLLMに質問する技術。
 
 ### ３．(脱線)AIについて、田中が思うこと
