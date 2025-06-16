@@ -31,11 +31,16 @@
 ### ３．脱線して作成してみたもの
 - [「Connect4」ボット(pytorch版)](https://pytorchconnect4.streamlit.app/)
 - [ソースコード](https://pytorchconnect4-disp.streamlit.app/)
+- [「MCPもどき」](https://function-calling-disp.streamlit.app/)
+- [ソースコード](https://function-calling-disp.streamlit.app/)
 
 ---
 ## ■LLMニュース
 - [ハノイの塔](https://gigazine.net/news/20250609-ai-thinking-model-limit/#google_vignette)
 - [チェス](https://gigazine.net/news/20250610-chatgpt-atari-2600-chess/)
+
+## ■function-callingとMCP
+- [Function calling の延長線上で MCP を考察](https://qiita.com/7shi/items/e27866ce51c6b9a0f605)
 
 ---
 ## ■まとめ
@@ -47,6 +52,6 @@
 ### ２．(脱線)AIについて、田中が思うこと
 - LLMは対戦ゲームやパズルなどが驚くほど苦手
 - LLMが持てはやされているが、従来からの機能特化型モデルもまだまだ必要
-- 超強力なAIに収斂する未来ではなく、様々なAIが共存する未来へ
+- 超強力なAIに収斂する未来ではなく、様々なAIが共存・共栄する未来へ
 - AIの課題はLLMも機能特化型モデルも学習に時間がかかりすぎること
 - 学習と推論が分離せず、行動しながら効率よく学習していくAIロボットの登場が待ち遠しい
