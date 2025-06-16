@@ -41,6 +41,8 @@
 
 ## ■function-callingとMCP
 - [Function calling の延長線上で MCP を考察](https://qiita.com/7shi/items/e27866ce51c6b9a0f605)
+  * こんにちは。
+  * 今、一ドルは何円ですか？
 
 ---
 ## ■まとめ
