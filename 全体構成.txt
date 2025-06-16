@@ -31,7 +31,7 @@
 ### ３．脱線して作成してみたもの
 - [「Connect4」ボット(pytorch版)](https://pytorchconnect4.streamlit.app/)
 - [ソースコード](https://pytorchconnect4-disp.streamlit.app/)
-- [「function-calling(MCPもどき)」](https://app-function-calling.streamlit.app/)
+- [「function-calling(MCP)」](https://app-function-calling.streamlit.app/)
 - [ソースコード](https://disp-function-calling.streamlit.app/)
   * こんにちは。
   * 今、一ドルは何円ですか？
@@ -49,7 +49,12 @@
 - 引数[temperature]に指定する値によって出力の「ランダムさ」を調整できる
 - 引数[message]内の"role": "system"(システムプロンプト)で、AIに対して「どう振る舞うべきか」を定義できる
 
-### ２．(脱線)AIについて、田中が思うこと
+### ２．(脱線)MCP・Function Calling・RAG
+- MCPはAI AgentがMCPサーバ(ツール)を利用するためのプロトコル。(AI AgentとMCPサーバ間のプロトコル)
+- Function CallingはOpenAI APIにおけるMCP実装技術。(AI AgentとLLM間の仕組)
+- RAGはLLMに質問をする前に社内DB等から情報を検索し、その情報とともにLLMに質問する技術。
+
+### ３．(脱線)AIについて、田中が思うこと
 - LLMは対戦ゲームやパズルなどが驚くほど苦手
 - LLMが持てはやされているが、従来からの機能特化型モデルもまだまだ必要
 - 超強力なAIに収斂する未来ではなく、様々なAIが共存・共栄・協力する未来へ
